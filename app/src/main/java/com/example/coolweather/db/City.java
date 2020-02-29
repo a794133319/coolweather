@@ -1,9 +1,9 @@
 package com.example.coolweather.db;
 
-import androidx.room.Entity;
+import org.litepal.crud.DataSupport;
 
-@Entity
-public class City {
+public class City extends DataSupport {
+
     private int id;
     private String cityName;
     private int cityCode;
