@@ -41,4 +41,3 @@ dependencies {
 //    implementation 'org.litepal.android:java:3.0.0'
     implementation 'org.litepal.android:core:1.4.1'
 }
-
